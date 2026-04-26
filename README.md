@@ -6,6 +6,34 @@ A full-stack KYC (Know Your Customer) onboarding and review pipeline for Playto 
 
 ---
 
+## Screenshots
+
+### Login
+![Login page](assets/Login.png)
+
+### KYC Wizard — Step 1: Personal Details
+![KYC Wizard Step 1](assets/KYC_Wizard_Step_1.png)
+
+### KYC Wizard — Step 2: Business Details
+![KYC Wizard Step 2](assets/KYC_Wizard_Step_2.png)
+
+### KYC Wizard — Step 3: Document Upload
+![KYC Wizard Step 3](assets/KYC_Wizard_Step_3.png)
+
+### KYC Status — Submitted
+![KYC submitted status](assets/KYC_Status_submitted.png)
+
+### Reviewer Dashboard (metrics + queue with SLA badge)
+![Reviewer Dashboard](assets/Reviewer_Dashboard.png)
+
+### Submission Detail (reviewer view with action buttons)
+![Submission Detail](assets/Submission_Detail.png)
+
+### Submission Detail — After Submission
+![Submission Detail submitted](assets/Submission_Detail_submitted.png)
+
+---
+
 ## Quick Start (Local)
 
 ### Prerequisites
@@ -142,6 +170,10 @@ The `Document` model row stores the path, original filename, MIME type, and file
 
 ---
 
+> ⚠️ **Note on hosted demo:** The app is deployed on Render's free tier. If the web app is not responding, it may be due to Render spinning down the service after inactivity. **Please wait 1–2 minutes and try again** — the server will wake up and respond normally.
+
+---
+
 ## Project Structure
 
 ```
@@ -171,3 +203,9 @@ playto-kyc/
         ├── AuthContext.jsx
         └── App.jsx
 ```
+
+---
+
+## License
+
+MIT License — feel free to use, modify, and distribute.
