@@ -208,4 +208,4 @@ playto-kyc/
 
 ## License
 
-MIT License — feel free to use, modify, and distribute.
+MIT License - See LICENSE file for details
