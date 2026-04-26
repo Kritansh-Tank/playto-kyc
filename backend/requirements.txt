@@ -1,0 +1,7 @@
+django
+djangorestframework
+filetype
+Pillow
+django-cors-headers
+gunicorn
+whitenoise
