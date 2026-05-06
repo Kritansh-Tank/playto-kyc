@@ -6,7 +6,7 @@ A full-stack KYC (Know Your Customer) onboarding and review pipeline for Playto 
 
 ---
 
-## UI Interface
+## User Interface
 
 ### Login
 ![Login page](assets/Login.png)
